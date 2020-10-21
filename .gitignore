@@ -1,0 +1,12 @@
+
+# IDE files
+.idea
+*.iml
+
+# Generated files
+target
+
+# Java files
+org.eclipse*
+.classpath
+.project
