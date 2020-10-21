@@ -1,0 +1,14 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+
+	"files.associations": {
+		"*.yaml": "yaml",
+		"*.yml": "yaml"
+	},
+	"[yaml]": {
+		"editor.detectIndentation": true,
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": "none",
+	}
+}
