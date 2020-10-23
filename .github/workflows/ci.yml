@@ -17,5 +17,8 @@ jobs:
         with:
           java-version: '8'
 
-      - name: Test
-        run: mvn clean test
+      - name: Build, Test, and Deploy
+        run: mvn clean deploy
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
